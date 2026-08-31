@@ -1,11 +1,20 @@
 # 🧩 Autism Spectrum Disorder (ASD) Screening using Machine Learning
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Launch_App-7c3aed?style=for-the-badge&logo=streamlit&logoColor=white)](https://muttakim63-autism-screening-ml-appstreamlit-app-9pfuqt.streamlit.app/)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 An end-to-end Machine Learning pipeline and interactive web application designed to predict and screen for **Autism Spectrum Disorder (ASD)** traits in adults based on behavioral AQ-10 questionnaire responses and demographic indicators.
+
+👉 **[Launch Live Interactive Web App](https://muttakim63-autism-screening-ml-appstreamlit-app-9pfuqt.streamlit.app/)**
+
+---
+
+## 🖥️ Live Application Preview
+
+![ASD NeuroScan AI Web App Preview](assets/app_preview.png)
 
 ---
 
@@ -96,8 +105,6 @@ python build_project.py
 streamlit run app/streamlit_app.py
 ```
 
-Open your browser at `http://localhost:8501`.
-
 ---
 
 ## 📂 Repository Structure
@@ -106,6 +113,8 @@ Open your browser at `http://localhost:8501`.
 autism_screening_ml/
 ├── app/
 │   └── streamlit_app.py          # Streamlit web application & prediction interface
+├── assets/
+│   └── app_preview.png           # Live application screenshot
 ├── data/
 │   └── cleaned_autism_data.csv   # Preprocessed UCI ASD dataset
 ├── models/
@@ -114,7 +123,6 @@ autism_screening_ml/
 ├── notebooks/
 │   └── 01_eda_and_modeling.ipynb # Jupyter notebook for EDA & ML benchmarking
 ├── build_project.py              # End-to-end data cleaning & model training script
-├── generate_notebook.py          # Notebook generator script
 ├── requirements.txt              # Project dependencies
 └── README.md                     # Project documentation
 ```
